@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="32">
+<mxfile host="app.diagrams.net" pages="34">
   <diagram name="1-ERD-1-Staff&amp;Branches" id="vTLXyLcJ5IFzw8wjZQ8U">
     <mxGraphModel dx="1030" dy="527" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -5947,6 +5947,203 @@
         </mxCell>
         <mxCell id="hIxjzZLMquc1eCbIeEnJ-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#56A0FF;" value="PK" vertex="1">
           <mxGeometry height="30" width="60" x="70" y="194" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gn6k-emFcqVVTrgC3xWm" name="3-Questions-Assumptions">
+    <mxGraphModel dx="1030" dy="527" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hADvAk8jCbFPAZvN1PqM-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Nada Atef&lt;div&gt;Group 1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="11" y="12" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-1" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;tableRender=collapsed;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="632.6002502441406" width="756.1500854492188" x="37" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-2" parent="ZIqMzufv78w3RDn-adu7-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="42" width="756.1500854492188" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-3" parent="ZIqMzufv78w3RDn-adu7-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="Question" vertex="1">
+          <mxGeometry height="42" width="567" as="geometry">
+            <mxRectangle height="42" width="567" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-4" parent="ZIqMzufv78w3RDn-adu7-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="&lt;span&gt;SRS section&lt;/span&gt;" vertex="1">
+          <mxGeometry height="42" width="189" x="567" as="geometry">
+            <mxRectangle height="42" width="189" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-5" parent="ZIqMzufv78w3RDn-adu7-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="74" width="756.1500854492188" y="42" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-6" parent="ZIqMzufv78w3RDn-adu7-5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&quot;If someone marks a car as &#39;Under Maintenance&#39; and it&#39;s&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;actually rented out under the table, we need to know who did it and when.&quot;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 242, 204);&quot;&gt;Does it mean i need Audit Log table that references to vehicle table to audit all updates on status or it just need the last update ?&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="567" as="geometry">
+            <mxRectangle height="74" width="567" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-7" parent="ZIqMzufv78w3RDn-adu7-5" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;7.3&lt;/span&gt;" vertex="1">
+          <mxGeometry height="74" width="189" x="567" as="geometry">
+            <mxRectangle height="74" width="189" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-8" parent="ZIqMzufv78w3RDn-adu7-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="63" width="756.1500854492188" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-9" parent="ZIqMzufv78w3RDn-adu7-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&quot;If a corporate account is closed, its driver list has no meaning anymore.&quot;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 242, 204);&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Does it mean that when a corporate customer is deleted, i have to delete its drivers (&lt;/span&gt;ON DELETE CASCADE&lt;span style=&quot;font-weight: normal;&quot;&gt;) ?&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="63" width="567" as="geometry">
+            <mxRectangle height="63" width="567" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-10" parent="ZIqMzufv78w3RDn-adu7-8" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;7.7&lt;/span&gt;" vertex="1">
+          <mxGeometry height="63" width="189" x="567" as="geometry">
+            <mxRectangle height="63" width="189" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-11" parent="ZIqMzufv78w3RDn-adu7-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="55" width="756.1500854492188" y="179" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-12" parent="ZIqMzufv78w3RDn-adu7-11" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&quot;branch manager can then blacklist the customer,&quot;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400; background-color: rgb(255, 242, 204);&quot;&gt;Does it mean there is a relationship between manager &amp;amp; blacklist + customer &amp;amp; blacklist ?&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="567" as="geometry">
+            <mxRectangle height="55" width="567" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-13" parent="ZIqMzufv78w3RDn-adu7-11" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;7.7&lt;/span&gt;" vertex="1">
+          <mxGeometry height="55" width="189" x="567" as="geometry">
+            <mxRectangle height="55" width="189" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-14" parent="ZIqMzufv78w3RDn-adu7-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="48" width="756.1500854492188" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-15" parent="ZIqMzufv78w3RDn-adu7-14" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&quot;&lt;span style=&quot;background-color: transparent;&quot;&gt;A client usually gets a discount on certain&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;categories.&lt;/span&gt;&quot;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 242, 204);&quot;&gt;Translated into a ternary relationship between customer, discount and category ?&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="48" width="567" as="geometry">
+            <mxRectangle height="48" width="567" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-16" parent="ZIqMzufv78w3RDn-adu7-14" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;7.8&lt;/span&gt;" vertex="1">
+          <mxGeometry height="48" width="189" x="567" as="geometry">
+            <mxRectangle height="48" width="189" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-17" parent="ZIqMzufv78w3RDn-adu7-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="52" width="756.1500854492188" y="282" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-18" parent="ZIqMzufv78w3RDn-adu7-17" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Some rentals come from a reservation&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&quot;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 242, 204);&quot;&gt;the relationship between rental and reservation :&amp;nbsp; rental (partial) 1:1 (total) reservation ?&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="52" width="567" as="geometry">
+            <mxRectangle height="52" width="567" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-19" parent="ZIqMzufv78w3RDn-adu7-17" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;7.12&lt;/span&gt;" vertex="1">
+          <mxGeometry height="52" width="189" x="567" as="geometry">
+            <mxRectangle height="52" width="189" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-20" parent="ZIqMzufv78w3RDn-adu7-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;fontStyle=1" value="" vertex="1">
+          <mxGeometry height="162" width="756.1500854492188" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-21" parent="ZIqMzufv78w3RDn-adu7-20" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&quot;Individual customers drive the car themselves. For corporate rentals, the contract must name which of the&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;company&#39;s authorized drivers is the main driver.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: normal; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Customers may add additional drivers to a rental for an extra daily fee. The fee may differ from one rental to&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-weight: normal; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;another.&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal; background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 242, 204);&quot;&gt;i had conflict here&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400; background-color: rgb(255, 242, 204);&quot;&gt;i represented it as a M:N relationship between Rental and Authorized Driver, which leads to a new table that connect the rentals of corporate customers with its drivers with fees on extra drivers for the same rental&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400; background-color: rgb(255, 242, 204);&quot;&gt;as individual customer doesn&#39;t have a driver so it won&#39;t take place in this table&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="162" width="567" as="geometry">
+            <mxRectangle height="162" width="567" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZIqMzufv78w3RDn-adu7-22" parent="ZIqMzufv78w3RDn-adu7-20" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;7.12&lt;/span&gt;" vertex="1">
+          <mxGeometry height="162" width="189" x="567" as="geometry">
+            <mxRectangle height="162" width="189" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l98-AGDzfHv_nZQfQNVk-1" parent="ZIqMzufv78w3RDn-adu7-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;fontStyle=1" vertex="1">
+          <mxGeometry height="60" width="756.1500854492188" y="496" as="geometry" />
+        </mxCell>
+        <mxCell id="l98-AGDzfHv_nZQfQNVk-2" parent="l98-AGDzfHv_nZQfQNVk-1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&quot;One rental can only be extended once directly&quot;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400; background-color: rgb(255, 242, 204);&quot;&gt;Does this mean the end date of a rental can be updated without new rental once ?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400; background-color: rgb(255, 242, 204);&quot;&gt;it is beyond DB constraints&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="567" as="geometry">
+            <mxRectangle height="60" width="567" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l98-AGDzfHv_nZQfQNVk-3" parent="l98-AGDzfHv_nZQfQNVk-1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;7.12&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="189" x="567" as="geometry">
+            <mxRectangle height="60" width="189" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMQLYg_1F6yr5OVPbfxP-1" parent="ZIqMzufv78w3RDn-adu7-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;fontStyle=1" vertex="1">
+          <mxGeometry height="77" width="756.1500854492188" y="556" as="geometry" />
+        </mxCell>
+        <mxCell id="SMQLYg_1F6yr5OVPbfxP-2" parent="SMQLYg_1F6yr5OVPbfxP-1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;if SRS mentioned an entity as an attribute of another entity , this refers to a relationship between them in ERD?&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;for example each vehicle has a customer, VIN and so on, but it doesn&#39;t mention a direct relationship&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="77" width="567" as="geometry">
+            <mxRectangle height="77" width="567" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SMQLYg_1F6yr5OVPbfxP-3" parent="SMQLYg_1F6yr5OVPbfxP-1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;-&lt;/span&gt;" vertex="1">
+          <mxGeometry height="77" width="189" x="567" as="geometry">
+            <mxRectangle height="77" width="189" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p_lTHZDmJ1oFelkRiREv" name="4-Business-Rules">
+    <mxGraphModel dx="1030" dy="527" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wkg_t3MxyRz1wVifRUqG-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Nada Atef&lt;div&gt;Group 1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="19" y="21" as="geometry" />
+        </mxCell>
+        <mxCell id="Wkg_t3MxyRz1wVifRUqG-11" parent="1" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;tableRender=collapsed;" value="" vertex="1">
+          <mxGeometry height="186.25" width="738.5" x="31" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="Wkg_t3MxyRz1wVifRUqG-12" parent="Wkg_t3MxyRz1wVifRUqG-11" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="40" width="738.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Wkg_t3MxyRz1wVifRUqG-13" parent="Wkg_t3MxyRz1wVifRUqG-12" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;b&gt;Rule&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="510" as="geometry">
+            <mxRectangle height="40" width="510" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wkg_t3MxyRz1wVifRUqG-14" parent="Wkg_t3MxyRz1wVifRUqG-12" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;b&gt;SRS section&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="229" x="510" as="geometry">
+            <mxRectangle height="40" width="229" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wkg_t3MxyRz1wVifRUqG-15" parent="Wkg_t3MxyRz1wVifRUqG-11" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="42" width="738.5" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Wkg_t3MxyRz1wVifRUqG-16" parent="Wkg_t3MxyRz1wVifRUqG-15" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&lt;div&gt;A person cannot be both&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;an agent and a mechanic.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(#000000, var(--ge-light-color, #ffffff)); background-color: rgb(151, 208, 119);&quot;&gt;Solution &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;: check for it in application logic&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="510" as="geometry">
+            <mxRectangle height="42" width="510" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wkg_t3MxyRz1wVifRUqG-17" parent="Wkg_t3MxyRz1wVifRUqG-15" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="7.1" vertex="1">
+          <mxGeometry height="42" width="229" x="510" as="geometry">
+            <mxRectangle height="42" width="229" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wkg_t3MxyRz1wVifRUqG-18" parent="Wkg_t3MxyRz1wVifRUqG-11" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="61" width="738.5" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="Wkg_t3MxyRz1wVifRUqG-19" parent="Wkg_t3MxyRz1wVifRUqG-18" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="Note from the COO: &quot;Some of our luxury cars, like the Mercedes S-Class we got last year,&amp;nbsp;&lt;div&gt;don&#39;t follow the category price. They have their own price.&quot;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;Solution &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;: check for it in application logic&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="61" width="510" as="geometry">
+            <mxRectangle height="61" width="510" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wkg_t3MxyRz1wVifRUqG-20" parent="Wkg_t3MxyRz1wVifRUqG-18" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="7.3" vertex="1">
+          <mxGeometry height="61" width="229" x="510" as="geometry">
+            <mxRectangle height="61" width="229" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wkg_t3MxyRz1wVifRUqG-21" parent="Wkg_t3MxyRz1wVifRUqG-11" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="43" width="738.5" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="Wkg_t3MxyRz1wVifRUqG-22" parent="Wkg_t3MxyRz1wVifRUqG-21" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="&quot;A blacklisted customer cannot book again&quot;&lt;div&gt;&lt;span style=&quot;background-color: rgb(151, 208, 119);&quot;&gt;Solution &lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;: check for it in application logic&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="43" width="510" as="geometry">
+            <mxRectangle height="43" width="510" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wkg_t3MxyRz1wVifRUqG-23" parent="Wkg_t3MxyRz1wVifRUqG-21" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;pointerEvents=1;" value="7.7" vertex="1">
+          <mxGeometry height="43" width="229" x="510" as="geometry">
+            <mxRectangle height="43" width="229" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
